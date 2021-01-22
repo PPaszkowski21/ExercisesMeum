@@ -1,0 +1,14 @@
+
+U
+java:S1161":Add the "@Override" annotation above this method signature(î•Éðûÿÿÿÿ
+y
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "root".(•Ë¾Ç8ó¯®ïï.
+Z
+java:S1128"8Remove this unused import 'androidx.lifecycle.Observer'.(ÒÁˆÉþÿÿÿÿ8ó¯®ïï.
+V
+java:S1128"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8ó¯®ïï.
+V
+java:S1128
+"9Remove this unused import 'androidx.annotation.Nullable'.(¾Èêš8ó¯®ïï.
+c
+java:S1128"ARemove this unused import 'androidx.lifecycle.ViewModelProvider'.(ª´÷©øÿÿÿÿ8ó¯®ïï.

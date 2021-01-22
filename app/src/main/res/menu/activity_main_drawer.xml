@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addTraining"
+            android:icon="@drawable/ic_baseline_sports_handball_24"
+            android:title="@string/menu_addTraining" />
+        <item
+            android:id="@+id/nav_exerciseManager"
+            android:icon="@drawable/ic_baseline_military_tech_24"
+            android:title="@string/menu_addExercise" />
+        <item
+            android:id="@+id/nav_motivation"
+            android:icon="@drawable/ic_baseline_self_improvement_24"
+            android:title="@string/menu_readMotivation" />
+    </group>
+</menu>
