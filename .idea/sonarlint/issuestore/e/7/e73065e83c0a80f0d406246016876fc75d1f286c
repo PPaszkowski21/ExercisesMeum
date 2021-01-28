@@ -1,0 +1,40 @@
+
+K
+java:S1604•"(Make this anonymous inner class a lambda(ï˜»ÿÿÿÿÿ8ºáã‚ô.
+O
+java:S4423’",Change this code to use a stronger protocol.(êßö ûÿÿÿÿ8ºáã‚ô.
+m
+java:S3252q"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(åİßâ8©ö½±ô.
+¤
+java:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–íşÿÿÿÿ8ºáã‚ô.
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£×æéúÿÿÿÿ8Î˜É‚ô.
+k
+java:S11042"NMake db a static final constant or non-public and provide accessors if needed.(ã¢ÑË8±Æÿ…ô.
+D
+java:S1604j"(Make this anonymous inner class a lambda(¬Ù·c8©ö½±ô.
+n
+java:S11040"QMake quote a static final constant or non-public and provide accessors if needed.(÷µĞâ8˜¤úó.
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸™ˆÕıÿÿÿÿ8ºáã‚ô.
+J
+java:S1604]"(Make this anonymous inner class a lambda(û¦éÒúÿÿÿÿ8©ö½±ô.
+r
+java:S3252p"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(¨¯åíÿÿÿÿÿ8©ö½±ô.
+c
+java:S4830"@Enable server certificate validation on this SSL/TLS connection.(¸™ˆÕıÿÿÿÿ8’ä‚ô.
+X
+java:S26969"6Make the enclosing method "static" or remove this set.(ÍÛ‰ªúÿÿÿÿ8çé†ô.
+]
+java:S5527˜"?Enable server hostname verification on this SSL/TLS connection.(§¼Éç8ºáã‚ô.
+H
+java:S14440"+Make this "public static quote" field final(÷µĞâ8˜¤úó.
+Q	java:S110-"<This class has 9 parents which is greater than 5 authorized.(²Ú±
+c
+java:S4830Š"@Enable server certificate validation on this SSL/TLS connection.(–íşÿÿÿÿ8’ä‚ô.
+K	java:S108›")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ8ºáã‚ô.
+E
+java:S14442"(Make this "public static db" field final(ã¢ÑË8çé†ô.
+m
+java:S1301W"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8«Ş»±ô.
+b
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(©§Ä—8»ŒË‚ô.

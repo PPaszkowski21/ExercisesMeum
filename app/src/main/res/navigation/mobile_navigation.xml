@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_addTraining"
-        android:name="com.example.projektsm.ui.home.HomeFragment"
+        android:name="com.example.projektsm.ui.training.AddTrainingFragment"
         android:label="@string/menu_addTraining"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_exercise" />
 
     <fragment
         android:id="@+id/nav_exerciseManager"
-        android:name="com.example.projektsm.ui.gallery.GalleryFragment"
+        android:name="com.example.projektsm.ui.exercise.ExerciseManagerFragment"
         android:label="@string/menu_addExercise"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_training" />
 
     <fragment
         android:id="@+id/nav_motivation"
-        android:name="com.example.projektsm.ui.slideshow.SlideshowFragment"
+        android:name="com.example.projektsm.ui.motivation.MotivationFragment"
         android:label="@string/menu_readMotivation"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_motivation" />
 </navigation>

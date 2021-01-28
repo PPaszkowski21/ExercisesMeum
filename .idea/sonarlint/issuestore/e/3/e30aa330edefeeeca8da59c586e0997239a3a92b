@@ -1,8 +1,0 @@
-
-Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±
-„
-java:S1128"bRemove this unused import 'com.google.android.material.floatingactionbutton.FloatingActionButton'.(ôˆêãÿÿÿÿÿ8´‰Çïï.
-P
-java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8´‰Çïï.
-g
-java:S1128"JRemove this unused import 'com.google.android.material.snackbar.Snackbar'.(ë„ƒŠ8´‰Çïï.

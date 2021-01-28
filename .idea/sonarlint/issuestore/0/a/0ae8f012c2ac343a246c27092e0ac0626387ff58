@@ -1,0 +1,10 @@
+
+d
+java:S1104"NMake Id a static final constant or non-public and provide accessors if needed.(«Ó´Œ
+n
+java:S1104"SMake Content a static final constant or non-public and provide accessors if needed.(°€™©øÿÿÿÿ
+m
+java:S1104"RMake Author a static final constant or non-public and provide accessors if needed.(–¬¶’ÿÿÿÿÿ
+k	java:S116"QRename this field "Author" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¬¶’ÿÿÿÿÿ
+l	java:S116"RRename this field "Content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°€™©øÿÿÿÿ
+b	java:S116"MRename this field "Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ó´Œ

@@ -10,17 +10,24 @@
     android:layout_margin="25dp">
 
     <TextView
-        android:id="@+id/textAddExercise"
+        android:id="@+id/textAddTraining"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Add new exercise"
+        android:text="@string/add_training"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
     <EditText
-        android:id="@+id/editTextAddExercise"
+        android:id="@+id/editTextAddScore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -28,11 +35,23 @@
         android:gravity="center"/>
 
     <Button
-        android:id="@+id/buttonAddExercise"
+        android:id="@+id/buttonAddTraining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
-        android:text="Add"/>
+        android:text="@string/add"/>
+
+    <TextView
+        android:id="@+id/listOfTrainings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/list_of_trainings"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trainingRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

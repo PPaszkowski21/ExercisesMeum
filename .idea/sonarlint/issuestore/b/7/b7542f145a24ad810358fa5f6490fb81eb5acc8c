@@ -1,0 +1,8 @@
+
+E
+java:S1604"(Make this anonymous inner class a lambda(¦Éš8Ëá´‚ô.
+€	java:S116"_Rename this field "GetMotivationFromApi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åúŒµÿÿÿÿÿ8Ëá´‚ô.
+…
+java:S1450"cRemove the "GetMotivationFromApi" field and declare it as a local variable in the relevant methods.(åúŒµÿÿÿÿÿ8Ëá´‚ô.
+u	java:S116"TRename this field "QuoteText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ëÿùÿÿÿÿ8Ëá´‚ô.
+q	java:S116"URename this field "AuthorText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿß·‚8Ëá´‚ô.

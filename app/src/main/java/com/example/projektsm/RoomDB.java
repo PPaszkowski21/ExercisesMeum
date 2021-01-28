@@ -1,4 +1,4 @@
-package com.example.projektsm.ui;
+package com.example.projektsm;
 
 import android.content.Context;
 

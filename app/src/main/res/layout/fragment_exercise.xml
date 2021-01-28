@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Add training"
+        android:text="@string/add_new_exercise"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
@@ -33,6 +33,19 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
-        android:text="Add"/>
+        android:text="@string/add"/>
+
+
+    <TextView
+        android:id="@+id/listOfExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/list_of_exercises"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/exercisesRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

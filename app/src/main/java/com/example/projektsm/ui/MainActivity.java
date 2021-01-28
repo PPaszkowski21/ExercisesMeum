@@ -1,7 +1,13 @@
-package com.example.projektsm.ui.training;
+package com.example.projektsm.ui;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -13,7 +19,9 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.projektsm.R;
 import com.example.projektsm.RoomDB;
+import com.example.projektsm.ui.exercise.ExerciseManagerFragment;
 import com.example.projektsm.ui.motivation.Quote;
+import com.example.projektsm.ui.training.AddTrainingFragment;
 import com.google.android.material.navigation.NavigationView;
 import com.google.gson.Gson;
 
@@ -47,7 +55,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         handleSSLHandshake();
         db = RoomDB.getInstance(getApplicationContext());
-        LoadQuoteFromApi(JSON_URL);
+        if(quote == null)
+        {
+            LoadQuoteFromApi(JSON_URL);
+        }
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -63,6 +74,49 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                final Dialog dialog = new Dialog(this);
+                dialog.setContentView(R.layout.dialog_reset_database);
+                Button yes = dialog.findViewById(R.id.button_yes);
+                Button no = dialog.findViewById(R.id.button_no);
+                yes.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        db.trainingDao().reset(db.trainingDao().getAll());
+                        db.exerciseDao().reset(db.exerciseDao().getAll());
+                        ExerciseManagerFragment.adapterAllExercises.exercises.removeAll(ExerciseManagerFragment.adapterAllExercises.exercises);
+                        ExerciseManagerFragment.adapterAllExercises.notifyDataSetChanged();
+                        AddTrainingFragment.adapterAllTrainings.trainings.removeAll(AddTrainingFragment.adapterAllTrainings.trainings);
+                        AddTrainingFragment.adapterAllTrainings.notifyDataSetChanged();
+                        AddTrainingFragment.dropdown.setEnabled(false);
+                        dialog.dismiss();
+                    }
+                });
+                no.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                int width = WindowManager.LayoutParams.MATCH_PARENT;
+                int height = WindowManager.LayoutParams.WRAP_CONTENT;
+                dialog.getWindow().setLayout(width,height);
+                dialog.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     @Override

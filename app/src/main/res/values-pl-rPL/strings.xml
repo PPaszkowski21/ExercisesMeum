@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">ProjektSM</string>
+    <string name="navigation_drawer_open">Otwórz nawigację</string>
+    <string name="navigation_drawer_close">Zamknij nawigację</string>
+    <string name="nav_header_title">Exerciis Meum</string>
+    <string name="nav_header_subtitle">" "</string>
+    <string name="nav_header_desc">Nagłówek nawigacji</string>
+    <string name="action_settings">Resetuj bazę danych</string>
+    <string name="menu_addTraining">Dodaj trening</string>
+    <string name="menu_addExercise">Menadżer ćwiczeń</string>
+    <string name="menu_readMotivation">Motywacja</string>
+    <string name="get_motivation">Pobierz motywację!</string>
+    <string name="exerciseNameIsEmptyToast">Proszę uzupełnić nazwę nowego ćwiczenia!</string>
+    <string name="trainingScoreIsEmptyToast">Proszę uzupełnić wynik ćwiczenia!</string>
+    <string name="are_you_sure_to_reset_database">Czy jesteś pewien, że chcesz zresetować bazę danych?</string>
+    <string name="list_of_trainings">Lista treningów</string>
+    <string name="add">Dodaj</string>
+    <string name="add_training">Dodaj trening</string>
+    <string name="get">Pobierz</string>
+    <string name="list_of_exercises">Lista ćwiczeń</string>
+    <string name="add_new_exercise">Dodaj nowe ćwiczenie</string>
+    <string name="yes">TAK</string>
+    <string name="no">NIE</string>
+</resources>

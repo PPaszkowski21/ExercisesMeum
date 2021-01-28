@@ -1,0 +1,15 @@
+
+c
+java:S2259."FA "NullPointerException" could be thrown; "exercise" is nullable here.(ø“Ê­8Öˆ²ô.
+k	java:S1169"PRename this field "Score" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë°¦:8·÷¹°ô.
+>
+java:S16599""Declare "Date" on a separate line.(Ë°¦:8·÷¹°ô.
+X	java:S125)"<This block of commented-out lines of code should be removed.(‹ùÅô8êŒ‰²ô.
+j	java:S1169"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë°¦:8·÷¹°ô.
+j	java:S1169"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë°¦:8·÷¹°ô.
+?
+java:S16599"#Declare "Score" on a separate line.(Ë°¦:8·÷¹°ô.
+r
+java:S1104"UMake trainings a static final constant or non-public and provide accessors if needed.(œ÷û¤8’Ÿº²ô.
+r
+java:S1104"UMake exercises a static final constant or non-public and provide accessors if needed.(Ç‚¢ö8’Ÿº²ô.

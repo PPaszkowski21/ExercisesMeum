@@ -1,0 +1,17 @@
+
+|
+java:S1104"_Make adapterAllExercises a static final constant or non-public and provide accessors if needed.(‚àÅÓ8Í±²ô.
+}
+java:S1450"`Remove the "buttonAddExercise" field and declare it as a local variable in the relevant methods.(Ü§™˜8’Ûš„ô.
+z
+java:S1450"XRemove the "exercises" field and declare it as a local variable in the relevant methods.(€óöéıÿÿÿÿ8©±¸²ô.
+R
+java:S2696#"6Make the enclosing method "static" or remove this set.(ĞóûR8Í±²ô.
+J
+java:S1604%"(Make this anonymous inner class a lambda(ËÇ¦…øÿÿÿÿ8ˆ˜«„ô.
+
+java:S1450"dRemove the "recyclerViewExercises" field and declare it as a local variable in the relevant methods.(…ÑÓÒ8Í±²ô.
+\
+java:S1161":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ8´¯¢†ô.
+V
+java:S1444"9Make this "public static adapterAllExercises" field final(‚àÅÓ8Í±²ô.

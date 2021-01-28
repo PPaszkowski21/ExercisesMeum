@@ -1,4 +1,4 @@
-package com.example.projektsm;
+package com.example.projektsm.ui.motivation;
 
 public class Quote {
     public int Id;

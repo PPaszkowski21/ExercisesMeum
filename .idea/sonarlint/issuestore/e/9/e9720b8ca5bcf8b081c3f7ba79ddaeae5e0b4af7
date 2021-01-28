@@ -1,0 +1,33 @@
+
+£
+java:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8òÔ¡«ô.
+\
+java:S1161)":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ8ôÈ×«ô.
+†
+java:S1450$"dRemove the "recyclerViewTrainings" field and declare it as a local variable in the relevant methods.(ÈÒì·øÿÿÿÿ8÷°²ô.
+S
+java:S2696,"6Make the enclosing method "static" or remove this set.(™êç™8ÙªÆ²ô.
+X
+java:S2696F"6Make the enclosing method "static" or remove this set.(÷éßÿÿÿÿÿ8²÷±²ô.
+R
+java:S2696M"6Make the enclosing method "static" or remove this set.(Ìåë8‹ñË²ô.
+u
+java:S2293M"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìåë8ôÈ×«ô.
+V
+java:S1444%"9Make this "public static adapterAllTrainings" field final(³Á§Ñ8²÷±²ô.
+K
+java:S1444&".Make this "public static dropdown" field final(¢Áèç8 ˆÆ²ô.
+p
+java:S1104'"SMake adapter a static final constant or non-public and provide accessors if needed.(öÚî8˜ºË²ô.
+J
+java:S16040"(Make this anonymous inner class a lambda(ı­÷ıùÿÿÿÿ8›í¹«ô.
+J
+java:S1444'"-Make this "public static adapter" field final(öÚî8˜ºË²ô.
+|
+java:S1104%"_Make adapterAllTrainings a static final constant or non-public and provide accessors if needed.(³Á§Ñ8²÷±²ô.
+}
+java:S1450!"`Remove the "buttonAddTraining" field and declare it as a local variable in the relevant methods.(œ‹ğ8» ¹«ô.
+z
+java:S1450"XRemove the "trainings" field and declare it as a local variable in the relevant methods.(‹‘½Üÿÿÿÿÿ8âŠÙ«ô.
+q
+java:S1104&"TMake dropdown a static final constant or non-public and provide accessors if needed.(¢Áèç8 ˆÆ²ô.
